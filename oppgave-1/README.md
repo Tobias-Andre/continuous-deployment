@@ -104,7 +104,7 @@ code
 ├── package-lock.json
 ├── package.json
 ├── src
-├── bode_modules
+├── node_modules
 ```
 
 - `index.html` er hovedfilen til appen
