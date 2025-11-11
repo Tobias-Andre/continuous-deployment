@@ -137,7 +137,7 @@ jobs:
         uses: actions/deploy-pages@v4
 ```
 
-### Hva gjør deploy-pipelineen?
+#### Hva gjør deploy-pipelineen?
 
 Deploy-pipelineen trigges kun når en release opprettes (`on: release: types: [created]`). Dette gir deg full kontroll over når koden din deployes til produksjon.
 
@@ -158,3 +158,6 @@ Trykk på "Publish release" nederst i skjermbildet. Sjekk at Action din kjører 
 ![](publish_release.png)
 
 
+### 3.3.3 - Testing av flyten
+
+:pencil2: Utfør endringer i koden. Kjør CI-pipeline, så deploy-pipeline, og sjekk at endringene dine blir publisert ut. 
